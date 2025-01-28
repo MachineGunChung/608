@@ -1,22 +1,14 @@
-<?php
-// Start the PHP session, if needed, for managing user logins or state.
-session_start();
-?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy Life Clinic</title>
-    <link rel="stylesheet" href="original_template/style.css"> <!-- Make sure this path is correct -->
+    <link rel="stylesheet" href="original_template/style.css">
 </head>
 <body>
     <h1>Welcome to Healthy Life Clinic</h1>
     <nav>
         <ul>
-            <!-- Link to original template if needed -->
-            <li><a href="original_template/index.php">Original Template</a></li>
-            <!-- Link to the converted template -->
+            <li><a href="original_template/index.html">Original Template</a></li>
             <li><a href="converted_template/index.php">Converted Template</a></li>
         </ul>
     </nav>
